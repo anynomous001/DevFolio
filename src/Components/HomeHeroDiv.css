@@ -1,0 +1,150 @@
+.HomeHeroDiv {
+    height: 80vh;
+    background-color: #1a1a1a;
+    padding: var(--padding);
+}
+
+.HomeHeroDiv-innerContainer {
+    margin-top: 5em;
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid wheat;
+}
+
+.visbyfont {
+    font-family: 'Outfit', sans-serif;
+    font-size: 3.5rem;
+    color: #DF0A42;
+}
+
+.small-tag {
+    font-size: 1.2rem;
+    color: rgba(223, 227, 230, 0.623);
+    display: flex;
+    align-items: center;
+}
+
+.facode {
+    height: 1.2em;
+    width: 2em;
+    margin-left: 0.7em;
+}
+
+
+.HomeHeroDiv-innerContainer h2 {
+    color: aliceblue;
+    font-family: 'visby', sans-serif;
+    word-spacing: 0.2em;
+    font-size: 2.5rem;
+    margin: 1em 0;
+}
+
+.oneliner {
+    font-family: 'visby';
+    position: relative;
+    z-index: -1;
+}
+
+.oneliner:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 1em;
+    background-color: #dec196;
+}
+
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid saddlebrown;
+}
+
+.btn {
+    color: black;
+    font-weight: 600;
+    padding: 1.3rem 1.5rem;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: 1px solid #1a1a1a;
+    transition: transform 0.3s ease-in-out;
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+}
+
+.round-btn {
+    border: #dec196 1px solid;
+    width: 4em;
+    height: 4em;
+    color: #1a1a1a;
+    border-radius: 50%;
+    margin-left: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon {
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.btn:hover {
+    background-color: rgba(245, 245, 220, 0.616);
+    transform: scale(1.1);
+
+}
+
+.round-btn:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:350px) {
+    .HomeHeroDiv {
+        height: 65vh;
+    }
+
+    .HomeHeroDiv-innerContainer {
+        margin-top: 4em;
+        width: 90%;
+    }
+
+    .visbyfont {
+        font-size: 1.8rem;
+    }
+
+    .HomeHeroDiv-innerContainer h2 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .btn {
+        color: rgb(65, 64, 64);
+        padding: 1rem 1.2rem;
+        font-size: 1rem;
+    }
+
+    .round-btn {
+        width: 3em;
+        height: 3em;
+
+    }
+
+    .icon {
+        width: 2em;
+        height: 2em;
+    }
+}
