@@ -55,6 +55,44 @@ const ProjectAndSkillDiv = () => {
                 </div>
                 <button className='project-more' type="button"><Link to='/Project'>More</Link></button>
             </div>
+
+
+
+            <div className='mid-heading-div'>
+
+                <h1 className='home-skills-headline'>My TechStack</h1>
+                <p className='home-skills-subheadline'></p>
+            </div>
+
+            <div className='skill-div'>
+                <div className='first-row'><  FaCss3 className='skill-icon' />
+                    <p>HTML</p>
+                </div>
+                <div className='first-row'><   FaJsSquare className='skill-icon' />
+                    <p>JavaScript </p>
+                </div>
+                <div className='second-row'><  FaReact className='skill-icon' />
+                    <p>React </p>
+                </div>
+                <div className='second-row'><FaGitAlt className='skill-icon' />
+                    <p>Git </p>
+                </div>
+                <div className='second-row'>< BsGithub className='skill-icon' />
+                    <p>Github </p>
+                </div>
+                <div className='second-row'>< SiFirebase className='skill-icon' />
+                    <p>FireBase </p>
+                </div>
+                <div className='third-row'><  SiReactrouter className='skill-icon' />
+                    <p>React Router </p>
+                </div>
+                <div className='third-row'><  SiTypescript className='skill-icon' />
+                    <p>TypeScript </p>
+                </div>
+                <div className='third-row'><   SiTailwindcss className='skill-icon' />
+                    <p>TalWind </p>
+                </div>
+            </div>
         </div>
     )
 }
