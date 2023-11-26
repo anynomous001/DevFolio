@@ -1,0 +1,178 @@
+.ProjectAndSkillDiv {
+    height: auto;
+    text-align: center;
+    background-color: #1a1a1ae7;
+    border-top-right-radius: 8%;
+    border-top-left-radius: 8%;
+    padding: var(--padding);
+    border: 1px solid saddlebrown;
+    box-shadow: -1px -6px 7px 0px rgba(222, 193, 150, 0.6);
+}
+
+.home-project-header {
+    font-size: 4rem;
+    margin-top: 1em;
+    font-family: 'valorant';
+
+    border: 1px solid saddlebrown;
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-projects-container {
+    padding: 3em;
+    height: 52em;
+    margin: 2em 0;
+    border: 1px solid saddlebrown;
+}
+
+.flex-div {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1em;
+    animation-timing-function: ease-in-out;
+    animation: slideIn 5s forwards;
+    transition-delay: 1s;
+}
+
+.flex-div .projectcard {
+    height: 100%;
+    width: 25%;
+    background-color: #bdb2b267;
+}
+
+.home_project_pic {
+    height: 21em;
+}
+
+.projectcard .view:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.projectcard .source:active {
+    transform: scale(0.95);
+}
+
+
+
+
+
+.project-image {
+    width: 100%;
+    border-radius: 5px;
+    height: 21em;
+}
+
+.projectcard {
+    height: 100%;
+    border-radius: 7px;
+    width: 65%;
+    padding: 1rem;
+    background: #1A1A1A;
+    z-index: 1;
+    border: none;
+    transition: transform 0.5s ease-in-out;
+    align-self: center;
+}
+
+.projectcard h4 {
+    font-family: 'valorant';
+    font-size: 1.5rem;
+    margin: 0.3em;
+    /** TEXT GRADIENT */
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.projectcard p {
+    font-size: 1rem;
+    margin: 0.3em;
+    margin-bottom: 2em;
+    color: rgb(222, 193, 150);
+    color: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+
+}
+
+.projectcard div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.projectcard a {
+    margin: 0.2em 0.2em 0.8em 0.2em;
+}
+
+.projectcard .source {
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 0.9542191876750701) 83%);
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: transform ease-in-out 0.2s;
+}
+
+.projectcard .view {
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+    transition: transform ease-in-out 0.2s;
+}
+
+.projectcard .view:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.projectcard .view:active {
+    transform: scale(0.95);
+}
+
+.projectcard .source:hover {
+    transform: scale(0.95);
+}
+
+.projectcard .source:active {
+    transform: scale(1.05);
+}
+
+.project-more {
+    align-self: center;
+    width: 8em;
+    margin-top: 2em;
+    border: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0.5em 0.8em;
+    background: rgb(222, 193, 150);
+    background: linear-gradient(120deg, hsl(36, 52%, 73%) rgba(152, 118, 84, 1) 84%);
+    transition: 0.5s ease-in-out;
+}
+
+.project-more:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.project-more:active {
+    transform: scale(0.95);
+}

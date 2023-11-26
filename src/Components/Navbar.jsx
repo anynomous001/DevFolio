@@ -32,10 +32,10 @@ const Navbar = () => {
                     <li><Link to='/About'>About</Link></li >
                 </ul>
             </nav>
-            <div className='hamburger-icon' onClick={handleClick}>
+            <div className='nav-icon-container' onClick={handleClick}>
                 {click ?
-                    <FaTimes size={25} style={{ color: 'white' }} /> :
-                    <FaBars size={25} />
+                    <FaTimes className='nav-icon' size={25} /> :
+                    <FaBars className='nav-icon' size={25} />
                 }
             </div>
         </div>
