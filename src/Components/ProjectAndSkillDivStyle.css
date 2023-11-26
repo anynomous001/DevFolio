@@ -25,9 +25,8 @@
 
 .home-projects-container {
     padding: 3em;
-    height: 52em;
     margin: 2em 0;
-    border: 1px solid saddlebrown;
+    border: 1px solid rgb(19, 139, 39);
 }
 
 .flex-div {
@@ -46,6 +45,7 @@
     height: 100%;
     width: 25%;
     background-color: #bdb2b267;
+    padding-top: 1.5em;
 }
 
 .home_project_pic {
@@ -155,7 +155,7 @@
 
 .project-more {
     align-self: center;
-    width: 8em;
+    width: 6em;
     margin-top: 2em;
     border: none;
     color: aliceblue;
@@ -164,7 +164,7 @@
     border-radius: 5px;
     padding: 0.5em 0.8em;
     background: rgb(222, 193, 150);
-    background: linear-gradient(120deg, hsl(36, 52%, 73%) rgba(152, 118, 84, 1) 84%);
+    background: linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
     transition: 0.5s ease-in-out;
 }
 
@@ -175,4 +175,17 @@
 
 .project-more:active {
     transform: scale(0.95);
+}
+
+
+@media screen and (max-width:700px) {
+    .flex-div {
+        flex-direction: column;
+        gap: 5em;
+        border: 1px solid greenyellow;
+    }
+
+    .flex-div .projectcard {
+        width: 70%;
+    }
 }
