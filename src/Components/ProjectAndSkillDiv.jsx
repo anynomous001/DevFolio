@@ -71,7 +71,7 @@ const ProjectAndSkillDiv = () => {
                 <div className='first-row'><   FaJsSquare className='skill-icon' />
                     <p>JavaScript </p>
                 </div>
-                <div className='second-row'><  FaReact className='skill-icon' />
+                <div className='first-row last'><  FaReact className='skill-icon' />
                     <p>React </p>
                 </div>
                 <div className='second-row'><FaGitAlt className='skill-icon' />
@@ -80,7 +80,7 @@ const ProjectAndSkillDiv = () => {
                 <div className='second-row'>< BsGithub className='skill-icon' />
                     <p>Github </p>
                 </div>
-                <div className='second-row'>< SiFirebase className='skill-icon' />
+                <div className='second-row last'>< SiFirebase className='skill-icon' />
                     <p>FireBase </p>
                 </div>
                 <div className='third-row'><  SiReactrouter className='skill-icon' />
@@ -89,7 +89,7 @@ const ProjectAndSkillDiv = () => {
                 <div className='third-row'><  SiTypescript className='skill-icon' />
                     <p>TypeScript </p>
                 </div>
-                <div className='third-row'><   SiTailwindcss className='skill-icon' />
+                <div className='third-row last'><   SiTailwindcss className='skill-icon' />
                     <p>TalWind </p>
                 </div>
             </div>

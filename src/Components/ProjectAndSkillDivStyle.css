@@ -219,3 +219,117 @@
         font-size: 2rem;
     }
 }
+
+
+
+
+/*Skill Section*/
+.home-skills-headline {
+    margin: 0 auto;
+    margin: 2em 0;
+    font-size: 4rem;
+    font-family: 'valorant';
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-div {
+    margin-top: 0.5em;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 10em);
+    align-content: center;
+}
+
+.skill-div div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #dec196;
+    background-image: -webkit-radial-gradient(circle, #dec196 25%, #987654 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-div div:hover {
+    background-color: #e7dcdc23;
+    cursor: pointer;
+}
+
+.skill-div div p {
+    margin-top: 1em;
+    font-size: 1.5rem;
+}
+
+.skill-div .first-row {
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
+
+.skill-div .second-row {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
+
+}
+
+
+
+.skill-div .third-row {
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
+
+}
+
+.skill-div .last {
+    border-right: none;
+}
+
+.skill-icon {
+    color: #dec196;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+@media screen and (max-width:780px) {
+    .home-skills-headline {
+        font-size: 3rem;
+    }
+
+    .skill-icon {
+        color: #dec196;
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .skill-div div p {
+        margin-top: 1em;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .home-skills-headline {
+        font-size: 2rem;
+    }
+
+    .skill-icon {
+        color: #dec196;
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .skill-div div p {
+        margin-top: 1em;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
