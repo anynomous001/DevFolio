@@ -45,6 +45,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    padding: 1em;
     border: 1px solid salmon;
 
     color: #dec196;
