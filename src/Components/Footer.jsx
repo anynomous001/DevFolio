@@ -9,15 +9,15 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div>
-                        <FaHome size='25' className='icons' />
+                        <FaHome className='icons' />
                         <h4>My Address</h4>
                     </div>
                     <div>
-                        <FaPhone size='25' className={'icons'} />
+                        <FaPhone className={'icons'} />
                         <p>9874353532</p>
                     </div>
                     <div>
-                        <FaMailBulk size='25' className={'icons'} />
+                        <FaMailBulk className={'icons'} />
                         <p>Chakrobortypritam1@gmail.com</p>
                     </div>
                 </div>
@@ -28,12 +28,12 @@ const Footer = () => {
                         Only files inside the `public` folder can be referenced from the HTML. </p>
                     <div>
                         <a href='https://twitter.com/Pritamchak001'>
-                            <FaTwitter size='25' className={'icons'} />
+                            <FaTwitter className={'icons'} />
                         </a>
                         <a href='https://www.linkedin.com/in/pritamchakroborty/'>
-                            <FaLinkedin size='25' className={'icons'} />
+                            <FaLinkedin className={'icons'} />
                         </a>
-                        <FaFacebook size='25' className={'icons'} />
+                        <FaFacebook className={'icons'} />
                     </div>
                 </div>
 

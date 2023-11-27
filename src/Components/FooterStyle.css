@@ -1,0 +1,112 @@
+.footer-container {
+    background-color: #1a1a1a;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    padding: var(--padding);
+    border: 1px solid salmon;
+}
+
+
+
+.left {
+    font-family: 'visby';
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid salmon;
+}
+
+.left div {
+    display: flex;
+    margin: 1rem;
+    gap: 2.2rem;
+}
+
+.left div h4 {
+    font-family: 'visby';
+}
+
+
+
+.right h4,
+p {
+    font-family: 'visby';
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid salmon;
+
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons {
+    color: #dec196;
+    background-image: -webkit-linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+@media screen and (max-width:480px) {
+    .footer-container {
+        height: auto;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .left div p {
+        font-size: 1rem;
+        letter-spacing: 0.03cm;
+    }
+
+    .left div .icons,
+    .right div .icons {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .footer-container {
+        height: auto;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .left div p {
+        font-size: 1rem;
+        letter-spacing: 0.03cm;
+    }
+
+    .left div .icons,
+    .right div .icons {
+        font-size: x-large;
+    }
+}
+
+.right div {
+    display: flex;
+    gap: 2.5rem;
+}

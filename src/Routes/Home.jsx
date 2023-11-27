@@ -6,10 +6,11 @@ import Footer from '../Components/Footer'
 
 const Home = () => {
     return (
-        <div className='Home-Section'>
+        <div>
             < Navbar />
             < HomeHeroDiv />
             < ProjectAndSkillDiv />
+            <Footer />
         </div>
     )
 }
