@@ -1,0 +1,147 @@
+/* About Page Css*/
+.aboutHero-div {
+    margin-top: 8em;
+    height: auto;
+    padding: var(--padding);
+    border: 1px solid salmon;
+    display: grid;
+    grid-template-columns: 10% 80%;
+    grid-template-areas: '. intro-div .';
+}
+
+.intro-div {
+    grid-area: intro-div;
+    border: 1px solid salmon;
+    display: grid;
+    grid-template-columns: 13% 80%;
+    grid-template-rows: 50px 100pxfr;
+    grid-template-areas:
+        'waving opener-tag'
+        'waving greetings';
+}
+
+.opener-tag {
+    grid-area: opener-tag;
+    font-size: 2rem;
+    border: 1px solid salmon;
+    color: rgba(240, 248, 255, 0.486);
+}
+
+.waving {
+    grid-area: waving;
+    width: 10em;
+    height: 10em;
+    color: #dec196;
+    border: 1px solid salmon;
+}
+
+.greetings {
+    grid-area: greetings;
+    font-size: 6rem;
+    color: aliceblue;
+    border: 1px solid salmon;
+}
+
+
+
+
+
+
+.about-content-container {
+    height: auto;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    padding: 4em;
+    border: 1px solid salmon;
+}
+
+.about-content {
+    width: 60%;
+    border: 1px solid salmon;
+}
+
+.about-content p {
+    color: aliceblue;
+    margin: 1.5em;
+    font-family: 'visby';
+    font-size: 2rem;
+}
+
+.about-img {
+    border: 1px solid salmon;
+    align-self: center;
+    padding-top: 6em;
+}
+
+@media(max-width:780px) {
+    .aboutHero-div-container {
+        width: 100%;
+    }
+
+    .intro-div {
+        width: 100%;
+        margin-top: 5em;
+        position: relative;
+        padding-left: 0;
+    }
+
+    .aboutHero-div {
+        background-color: #1a1a1a;
+        height: 43vh;
+        padding: 2em 1.5em;
+    }
+
+    .waving {
+        width: 4em;
+        height: 3em;
+        color: #dec196;
+    }
+
+    .greetings {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 90%;
+        color: aliceblue;
+        left: 9%;
+        margin-left: 0;
+        margin-top: 0.9em;
+        width: 60%;
+    }
+
+    .opener-tag {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 1rem;
+        color: aliceblue;
+    }
+
+    .about-content-container {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .about-content {
+        width: 100%;
+        line-height: 2.1em;
+    }
+
+    .about-content p {
+        font-family: 'visby';
+        font-size: 1.5rem;
+    }
+
+    .about-content :first-child[type='p'] {
+        margin-top: 0;
+    }
+
+    .about-img-content {
+        width: 80%;
+        margin-right: 2em;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+}
