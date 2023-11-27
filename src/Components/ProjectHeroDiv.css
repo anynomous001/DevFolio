@@ -64,3 +64,14 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .ProjectHeroDiv-content .sub-headline {
+        text-align: center;
+    }
+
+    .ProjectHeroDiv-content .project-headline {
+        font-size: 2.5rem;
+    }
+
+}
