@@ -2,6 +2,7 @@
     height: 80vh;
     background-color: #1a1a1a;
     padding: var(--padding);
+    border: 1px solid skyblue;
 }
 
 .HomeHeroDiv-innerContainer {
@@ -11,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    border: 1px solid skyblue;
 }
 
 .visbyfont {
@@ -60,6 +62,7 @@
 .btn-container {
     display: flex;
     align-items: center;
+    border: 1px solid rgb(135, 235, 152);
 }
 
 .btn {
@@ -110,7 +113,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:480px) {
     .small-tag {
         margin-bottom: 3px;
     }
