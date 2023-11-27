@@ -200,7 +200,7 @@
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:480px) {
     .flex-div {
         flex-direction: column;
         gap: 3em;
@@ -316,7 +316,7 @@
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:480px) {
     .home-skills-headline {
         font-size: 2rem;
     }
