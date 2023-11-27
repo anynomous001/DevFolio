@@ -75,38 +75,26 @@
 }
 
 @media(max-width:780px) {
-    .aboutHero-div-container {
-        width: 100%;
-    }
-
     .intro-div {
-        width: 100%;
-        margin-top: 5em;
-        position: relative;
-        padding-left: 0;
+        grid-template-columns: 20% 80%;
     }
 
     .aboutHero-div {
-        background-color: #1a1a1a;
-        height: 43vh;
-        padding: 2em 1.5em;
+        grid-template-columns: 2% 98%;
+        grid-template-areas: '. intro-div';
+    }
+
+    .opener-tag {
+        font-size: 2rem;
     }
 
     .waving {
-        width: 4em;
-        height: 3em;
-        color: #dec196;
+        width: 7em;
+        height: 8em;
     }
 
     .greetings {
-        font-size: 2.5rem;
-        position: absolute;
-        top: 90%;
-        color: aliceblue;
-        left: 9%;
-        margin-left: 0;
-        margin-top: 0.9em;
-        width: 60%;
+        font-size: 4rem;
     }
 
     .opener-tag {
@@ -114,12 +102,17 @@
         align-items: center;
         justify-content: start;
         font-size: 1rem;
-        color: aliceblue;
+        color: rgba(240, 248, 255, 0.486);
+    }
+
+    .about-img {
+        padding-top: 0;
+        padding-left: 2em;
     }
 
     .about-content-container {
         flex-direction: column;
-        padding: 2em;
+        padding: var(--padding);
     }
 
     .about-content {
@@ -140,8 +133,66 @@
         width: 80%;
         margin-right: 2em;
     }
+}
+
+@media(max-width:480px) {
+    .intro-div {
+        grid-template-columns: 28% 70%;
+    }
+
+    .aboutHero-div {
+        grid-template-columns: 100%;
+        grid-template-areas: 'intro-div';
+        margin-top: 4em;
+    }
+
+    .opener-tag {
+        font-size: 2rem;
+    }
+
+    .waving {
+        width: 4.5em;
+        height: 6em;
+    }
+
+    .greetings {
+        font-size: 1.9rem;
+    }
+
+    .opener-tag {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        font-size: 1rem;
+        color: rgba(240, 248, 255, 0.486);
+    }
 
     .about-img {
-        width: 100%;
+        width: 250px;
+        padding: 0;
+        margin: 0;
+        margin-left: -2.2em;
     }
+
+    .about-content-container {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .about-content {
+        width: 100%;
+        line-height: 2.1em;
+    }
+
+    .about-content p {
+        font-family: 'visby';
+        font-size: 1.3rem;
+        margin: 1em;
+    }
+
+    .about-content :first-child[type='p'] {
+        margin-top: 0;
+    }
+
+
 }
