@@ -1,0 +1,83 @@
+.footer-container {
+    background-color: #1a1a1a;
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+.left {
+    padding: 1rem;
+    font-family: 'visby';
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.left div {
+    display: flex;
+    margin: 1.2rem;
+    gap: 2.5rem;
+}
+
+.left div h4 {
+    font-family: 'visby';
+}
+
+.right {
+    padding: 1rem;
+}
+
+.right h4,
+p {
+    font-family: 'visby';
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 0.8rem;
+
+    color: #dec196;
+    background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons {
+    color: #dec196;
+    background-image: -webkit-linear-gradient(120deg, rgba(222, 193, 150, 1) 44%, rgba(152, 118, 84, 1) 84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .footer-container {
+        height: 75vh;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.right div {
+    display: flex;
+    gap: 2.5rem;
+}
