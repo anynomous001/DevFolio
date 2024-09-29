@@ -3,6 +3,8 @@
     background-color: #1a1a1a;
     padding: var(--padding);
     border: 1px solid skyblue;
+   display: flex;
+   justify-content: center;
 }
 
 .HomeHeroDiv-innerContainer {
@@ -10,21 +12,22 @@
     width: 80%;
     height: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     border: 1px solid skyblue;
+    text-align: center;
 }
 
 .visbyfont {
     font-family: 'Outfit', sans-serif;
     font-size: 3.5rem;
     color: #DF0A42;
+    text-align: center;
 }
 
 .small-tag {
     font-size: 1.2rem;
     color: rgba(223, 227, 230, 0.623);
-    display: flex;
     align-items: center;
 }
 
@@ -41,6 +44,7 @@
     word-spacing: 0.2em;
     font-size: 2.5rem;
     margin: 1em 0;
+    text-align: center;
 }
 
 .oneliner {
@@ -62,10 +66,14 @@
 .btn-container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 1em;
     border: 1px solid rgb(135, 235, 152);
 }
 
 .btn {
+    margin-left: 0.5em;
     color: black;
     font-weight: 600;
     padding: 1.3rem 1.5rem;
@@ -86,6 +94,7 @@
     color: #1a1a1a;
     border-radius: 50%;
     margin-left: 1em;
+    margin-right: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;

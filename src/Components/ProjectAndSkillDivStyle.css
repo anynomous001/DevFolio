@@ -31,6 +31,8 @@
 
 .flex-div {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
@@ -154,7 +156,7 @@
 
 .project-more {
     align-self: center;
-    width: 6em;
+    width: 8em;
     margin-top: 2em;
     border: none;
     color: aliceblue;

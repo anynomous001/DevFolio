@@ -1,13 +1,11 @@
 .header {
     background-color: aquamarine;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 7em;
     padding: 3em;
     background-color: transparent;
-    position: fixed;
-    top: 0;
     z-index: 10;
     width: 100vw;
 
@@ -28,6 +26,7 @@
     -webkit-text-fill-color: transparent;
     font-family: 'valorant';
     z-index: -1;
+    font-size: 4em;
 }
 
 .navbar {
