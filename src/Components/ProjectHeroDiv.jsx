@@ -14,9 +14,3 @@ const ProjectHeroDiv = () => {
 
 export default ProjectHeroDiv
 
-/*<div className='hero2-container'>
-                <video className='hero2-img' autoPlay muted loop id="video-background">
-                    <source src={video1} type="video/mp4" />
-                    Your browser does not support the video tag.
-                </video>
-            </div> */

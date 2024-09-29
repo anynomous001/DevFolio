@@ -1,7 +1,6 @@
 import React from 'react'
 import './ProjectAndSkillDivStyle.css'
 
-import project_three from '../assets/project_three.jpeg'
 import Endorsementproject from '../assets/Endorsementproject.jpg'
 import Quizproject from '../assets/Quizproject.jpg'
 import project5 from '../assets/Todoproject.jpg'
@@ -15,8 +14,13 @@ import {
     FaReact, FaHtml5, FaCss3, FaJsSquare,
 } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import ProjectCards from './ProjectCards'
 
 const ProjectAndSkillDiv = () => {
+
+    const [seeMore, setSeeMore] = React.useState(false)
+
+
     return (
         <div className='ProjectAndSkillDiv'>
             <h1 className='home-project-header'>Some of my Projects</h1>
@@ -24,17 +28,7 @@ const ProjectAndSkillDiv = () => {
                 <div className='flex-div'>
                     <div key={Math.random()} className='projectcard'>
                         <img className='home_project_pic' src={Endorsementproject} alt='Project-photo' />
-                        <h4>Endorment Application
-                        </h4>
-                        <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
-                        <div>
-                            <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
-                            <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
-                        </div>
-                    </div >
-                    <div key={Math.random()} className='projectcard'>
-                        <img className='home_project_pic' src={Quizproject} alt='Project-photo' />
-                        <h4>Endorment Application
+                        <h4>Readium
                         </h4>
                         <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
                         <div>
@@ -44,7 +38,7 @@ const ProjectAndSkillDiv = () => {
                     </div >
                     <div key={Math.random()} className='projectcard'>
                         <img className='home_project_pic' src={project5} alt='Project-photo' />
-                        <h4>Endorment Application
+                        <h4>Play TM
                         </h4>
                         <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
                         <div>
@@ -52,8 +46,19 @@ const ProjectAndSkillDiv = () => {
                             <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
                         </div>
                     </div >
+                    <div key={Math.random()} className='projectcard'>
+                        <img className='home_project_pic' src={Quizproject} alt='Project-photo' />
+                        <h4>Quizzicle
+                        </h4>
+                        <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
+                        <div>
+                            <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
+                            <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
+                        </div>
+                    </div >
+                    {seeMore && <ProjectCards />}
                 </div>
-                <button className='project-more' type="button"><Link to='/Project'>More</Link></button>
+                <button className='project-more' onClick={() => setSeeMore(true)} type="button">More</button>
             </div>
 
 
