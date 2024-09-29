@@ -2,6 +2,7 @@ import React from 'react'
 import { PiHandWaving } from 'react-icons/pi'
 import profile from '../assets/profile.jpg'
 import './AboutPageStyle.css'
+import { Link } from 'react-router-dom'
 
 const AboutPage = () => {
     return (
@@ -24,14 +25,16 @@ const AboutPage = () => {
 
                 <div className='about-content'>
 
-                    <p>I’m a Frontend Developer from Kolkata (India).
-                        I completed Frontend Carrer Path from Scrimba. </p>
+                    <p>I’m a FullStack Developer from Kolkata (India).
+                        I completed Frontend Carrer Path from <Link to={'https://v2.scrimba.com/'}>Scrimba</Link>  in 2022 and then persued my Fullstack
+                        career from <Link to={'https://app.100xdevs.com/home'}> 100xdevs</Link>.
+                    </p>
 
 
                     <p> I learned my craft by building various projects, Scrimba's Wholesome community helped me to evolve as a Developer.
-                        In my free time, I surf through internet to learn more about technology to stay relevant.
-                        I’m currently learning more about advanced frontend stuffs and tooling, apart from these
-                        i like reading about tech articles and blogs.</p>
+                        In my free time, I surf through internet to learn more about technology.
+                        I’m currently enhancing my knowledge on realtime communication (Including : voice, video and data Sharing), apart from these
+                        i like to gather knowledge on businesses and politics all over the world.</p>
 
 
                     <p> I'm inspired by people who seek creativity in technology and keen to learn something new.
