@@ -113,8 +113,8 @@
 .projectcard {
     height: auto;
     border-radius: 7px;
-    width: 65%;
-    padding: 1rem;
+    width: 100%;
+    padding: 0.3rem;
     background: #1A1A1A;
     z-index: 1;
     border: none;

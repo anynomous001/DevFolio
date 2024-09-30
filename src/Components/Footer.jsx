@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='left'>
                     <div>
                         <FaHome className='icons' />
-                        <h4>My Address</h4>
+                        <h4>Ichapur, Kolkata - 743144, West Bengal</h4>
                     </div>
                     <div>
                         <FaPhone className={'icons'} />
@@ -20,8 +20,9 @@ const Footer = () => {
                         <FaMailBulk className={'icons'} />
                         <p>Chakrobortypritam1@gmail.com</p>
                     </div>
+                    <p className='footer-quote'>"Building the future, one line of code at a time."</p>
                 </div>
-                <div className='right'>
+                {/* <div className='right'>
                     <h4>About The Company</h4>
                     <p>Notice the use of %PUBLIC_URL% in the tags above.
                         It will be replaced with the URL of the `public` folder during the build.
@@ -35,7 +36,7 @@ const Footer = () => {
                         </a>
                         <FaFacebook className={'icons'} />
                     </div>
-                </div>
+                </div> */}
 
             </div>
 

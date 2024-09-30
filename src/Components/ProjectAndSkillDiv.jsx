@@ -5,22 +5,20 @@ import Endorsementproject from '../assets/Endorsementproject.jpg'
 import Quizproject from '../assets/Quizproject.jpg'
 import project5 from '../assets/Todoproject.jpg'
 
-import { BsGithub } from 'react-icons/bs'
 import { BiLogoPostgresql } from 'react-icons/bi'
-import { SiFirebase, SiReactrouter, SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb } from 'react-icons/si'
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiRecoil, SiExpress } from 'react-icons/si'
 import {
-    FaLinkedinIn,
-    FaCode,
-    FaGitAlt,
-    FaReact, FaAws, FaDocker, FaCss3, FaJsSquare,
+    FaReact, FaAws, FaDocker
 } from 'react-icons/fa'
+import { TbBrandRedux } from "react-icons/tb";
+import { DiNginx } from "react-icons/di";
+
 import { ProjectData } from './ProjectData'
-import './ProjectCardsStyle.css'
-import project from '../assets/project_two.jpeg'
 import project1 from '../assets/intro.jpg'
 import project2 from '../assets/project_one.jpeg'
 import project3 from '../assets/project_three.jpeg'
 import project4 from '../assets/Demomarketing.jpg'
+import readium from '../assets/readium.jpg'
 
 
 const images = [project1, project2, project3, project4]
@@ -52,13 +50,13 @@ const ProjectAndSkillDiv = () => {
             <div className='home-projects-container'>
                 <div className='flex-div'>
                     <div key={Math.random()} className='projectcard'>
-                        <img className='home_project_pic' src={Endorsementproject} alt='Project-photo' />
+                        <img className='home_project_pic' src={readium} alt='Project-photo' />
                         <h4>Readium
                         </h4>
                         <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
                         <div>
-                            <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
-                            <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
+                            <a href='https://medium-full-stack-sand.vercel.app/' className='view' >View</a>
+                            <a href='https://github.com/anynomous001/Medium_Full-Stack' className='source'>source</a>
                         </div>
                     </div >
                     <div key={Math.random()} className='projectcard'>
@@ -95,11 +93,11 @@ const ProjectAndSkillDiv = () => {
             </div>
 
             <div className='skill-div'>
-                <div className='first-row'><  FaCss3 className='skill-icon' />
-                    <p>HTML</p>
+                <div className='first-row'><  SiTypescript className='skill-icon' />
+                    <p>Typescript</p>
                 </div>
-                <div className='first-row'><   SiTypescript className='skill-icon' />
-                    <p>TypeScript </p>
+                <div className='first-row'><   SiNextdotjs className='skill-icon' />
+                    <p>Next js </p>
                 </div>
                 <div className='first-row last'><  FaReact className='skill-icon' />
                     <p>React </p>
@@ -110,8 +108,8 @@ const ProjectAndSkillDiv = () => {
                 <div className='second-row'>< SiMongodb className='skill-icon' />
                     <p>Mongodb  </p>
                 </div>
-                <div className='second-row last'>< SiNextdotjs className='skill-icon' />
-                    <p>Next js  </p>
+                <div className='second-row last'>< SiExpress className='skill-icon' />
+                    <p>Express</p>
                 </div>
                 <div className='third-row'><  FaAws className='skill-icon' />
                     <p>AWS </p>
@@ -119,8 +117,17 @@ const ProjectAndSkillDiv = () => {
                 <div className='third-row'><  FaDocker className='skill-icon' />
                     <p>Docker </p>
                 </div>
-                <div className='third-row last'><   SiTailwindcss className='skill-icon' />
-                    <p>TalWind </p>
+                <div className='third-row last'><   DiNginx className='skill-icon Nginx' />
+                    <p>Nginx </p>
+                </div>
+                <div className='fourth-row'><  SiTailwindcss className='skill-icon' />
+                    <p>Tailwind </p>
+                </div>
+                <div className='fourth-row'>< SiRecoil className='skill-icon' />
+                    <p>Recoil  </p>
+                </div>
+                <div className='fourth-row last'>< TbBrandRedux className='skill-icon' />
+                    <p>Redux </p>
                 </div>
             </div>
         </div>

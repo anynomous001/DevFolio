@@ -3,16 +3,18 @@
     height: auto;
     display: grid;
     justify-items: center;
-    grid-template-columns: 40% 60%;
     align-items: center;
     padding: var(--padding) 1em;
     border: 1px solid salmon;
 }
 
-
+.footer-quote{
+    font-size: 1.8rem;
+}
 
 .left {
     font-family: 'visby';
+    font-size: 1.2rem;
     color: #dec196;
     background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
     background-clip: text;
@@ -23,6 +25,8 @@
 }
 
 .left div {
+        font-size: 1.2rem;
+
     display: flex;
     margin: 1rem;
     gap: 2.2rem;
@@ -77,7 +81,7 @@ p {
     }
 
     .left div p {
-        font-size: 1rem;
+    font-size: 1.5rem;
         letter-spacing: 0.03cm;
     }
 

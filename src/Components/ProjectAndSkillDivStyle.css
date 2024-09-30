@@ -75,8 +75,8 @@
 .projectcard {
     height: 100%;
     border-radius: 7px;
-    width: 65%;
-    padding: 1rem;
+    width: 95%;
+    padding: 0.5rem;
     background: #1A1A1A;
     z-index: 1;
     border: none;
@@ -259,10 +259,11 @@
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
+    padding: 1em;
 }
 
 .skill-div div:hover {
-    background-color: #e7dcdc23;
+    background-color: #e7dcdc98;
     cursor: pointer;
 }
 
@@ -278,16 +279,17 @@
 
 .skill-div .second-row {
     border-bottom: 1px solid rgba(255, 255, 255, 0.363);
-
     border-right: 1px solid rgba(255, 255, 255, 0.363);
 
 }
 
-
-
 .skill-div .third-row {
     border-right: 1px solid rgba(255, 255, 255, 0.363);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.363);
 
+}
+.skill-div .fourth-row {
+    border-right: 1px solid rgba(255, 255, 255, 0.363);
 }
 
 .skill-div .last {
@@ -298,6 +300,13 @@
     color: #dec196;
     width: 3.5em;
     height: 3.5em;
+}
+
+.Nginx{
+   color: #dec196;
+    width: 7.5em;
+    height: 6.5em;  
+    padding: 0;
 }
 
 @media screen and (max-width:780px) {
