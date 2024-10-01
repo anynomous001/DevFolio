@@ -104,5 +104,8 @@ nav ul li {
     .nav-icon-container {
         display: unset;
     }
-
+.header{
+    height: 4em;
+    padding: 0;
+}
 }
