@@ -118,6 +118,7 @@
     .about-content {
         width: 100%;
         line-height: 2.1em;
+        padding: 0;
     }
 
     .about-content p {
@@ -152,11 +153,11 @@
 
     .waving {
         width: 4.5em;
-        height: 6em;
+        height: 5em;
     }
 
     .greetings {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 
     .opener-tag {
@@ -176,18 +177,20 @@
 
     .about-content-container {
         flex-direction: column;
-        padding-top: 0;
+        padding: 1.5rem;
+        border: 1px solid palevioletred;
     }
 
     .about-content {
         width: 100%;
-        line-height: 2.1em;
+        line-height: 2em;
     }
 
     .about-content p {
         font-family: 'visby';
         font-size: 1.3rem;
-        margin: 1em;
+        margin: 5px;
+        color:rgba(112, 128, 144, 0.625);
     }
 
     .about-content :first-child[type='p'] {
