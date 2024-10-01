@@ -26,7 +26,7 @@ const images = [project1, project2, project3, project4]
 const Data = ProjectData.map((item, index) => {
     return (
         <div key={Math.random()} className='projectcard'>
-            <img className='project-image' src={images[index]} alt='Project-photo' />
+            <img className='home_project_pic' src={images[index]} alt='Project-photo' />
             <h4>{item.name}</h4>
             <p>{item.about}</p>
             <div>

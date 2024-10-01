@@ -66,16 +66,16 @@
 
 
 
-/*.project-image {
+.project-image {
     width: 100%;
     border-radius: 5%;
     height: 21em;
-}*/
+}
 
 .projectcard {
     height: 100%;
     border-radius: 7px;
-    width: 95%;
+    width: 65%;
     padding: 0.5rem;
     background: #1A1A1A;
     z-index: 1;
@@ -179,7 +179,7 @@
 }
 
 .home_project_pic {
-    width: 90%;
+    width: 95%;
 }
 
 @media screen and (max-width:780px) {

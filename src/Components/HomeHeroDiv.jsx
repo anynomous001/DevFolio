@@ -21,11 +21,11 @@ const HomeHeroDiv = () => {
                     life.</h2>
 
                 <div className='btn-container'>
-                    <Link className='round-btn github' to='https://x.com/Pritamchak001 '><FaSquareXTwitter className='icon' /></Link>
-                    <Link className='round-btn github' to='https://github.com/anynomous001 '><BsGithub className='icon' /></Link>
+                    <Link className='round-btn ' to='https://x.com/Pritamchak001 '><FaSquareXTwitter className='icon' /></Link>
+                    <Link className='round-btn ' to='https://github.com/anynomous001 '><BsGithub className='icon' /></Link>
                     <a className='btn' href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
-                    <Link className='round-btn github' to='https://www.linkedin.com/in/pritamchakroborty/'><FaLinkedinIn className='icon' /></Link>
-                    <Link className='round-btn github' to='https://mail.google.com/mail/mu/mp/354/#pr'><MdEmail className='icon' /></Link>
+                    <Link className='round-btn ' to='https://www.linkedin.com/in/pritamchakroborty/'><FaLinkedinIn className='icon' /></Link>
+                    <Link className='round-btn ' to='https://mail.google.com/mail/mu/mp/354/#pr'><MdEmail className='icon' /></Link>
                 </div>
             </div>
         </div>

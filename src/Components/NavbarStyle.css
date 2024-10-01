@@ -7,7 +7,7 @@
     padding: 3em;
     background-color: transparent;
     z-index: 10;
-    width: 100vw;
+    border: 2px solid wheat;
 
 }
 
@@ -89,7 +89,9 @@ nav ul li {
         font-size: 3rem;
     }
 
-
+.dev-logo {
+    font-size: 1.5em;
+}
 
     .navbar ul {
         display: flex;

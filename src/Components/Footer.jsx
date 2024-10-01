@@ -20,7 +20,7 @@ const Footer = () => {
                         <FaMailBulk className={'icons'} />
                         <p>Chakrobortypritam1@gmail.com</p>
                     </div>
-                    <p className='footer-quote'>"Building the future, one line of code at a time."</p>
+                    <p id='footer-quote'>" Building the future, one line of code at a time. "</p>
                 </div>
                 {/* <div className='right'>
                     <h4>About The Company</h4>
@@ -37,7 +37,7 @@ const Footer = () => {
                         <FaFacebook className={'icons'} />
                     </div>
                 </div> */}
-
+                <hr />
             </div>
 
 
