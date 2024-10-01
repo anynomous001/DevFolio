@@ -11,7 +11,6 @@
 
 .home-project-header {
     font-size: 4rem;
-    margin-top: 1em;
     font-family: 'valorant';
 
     border: 1px solid saddlebrown;
@@ -49,9 +48,6 @@
     padding-top: 1.5em;
 }
 
-.home_project_pic {
-    height: 21em;
-}
 
 .projectcard .view:hover {
     transform: scale(1.05);
@@ -178,8 +174,10 @@
     transform: scale(0.95);
 }
 
+
 .home_project_pic {
     width: 95%;
+    height: 21em;
 }
 
 @media screen and (max-width:780px) {
@@ -194,7 +192,7 @@
     }
 
     .home_project_pic {
-        width: 90%;
+        width: 100%;
     }
 
     .home-project-header {
@@ -205,21 +203,33 @@
 @media screen and (max-width:480px) {
     .flex-div {
         flex-direction: column;
-        gap: 3em;
+        gap: 2em;
         border: 1px solid greenyellow;
     }
 
     .flex-div .projectcard {
         width: 100%;
+        padding:2em 1em ;
     }
 
-    .home_project_pic {
-        width: 100%;
-    }
+   
 
     .home-project-header {
         font-size: 2rem;
     }
+.home_project_pic {
+        height: 18em;
+    }
+    .ProjectAndSkillDiv {
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;
+    padding: 2em 0em;
+}
+
+.home-projects-container {
+    margin: 0;
+    border: 1px solid rgb(19, 139, 39);
+}
 }
 
 
