@@ -128,7 +128,8 @@
 @media screen and (max-width:480px) {
     .small-tag {
         margin-bottom: 3px;
-    }
+justify-content: flex-start;   
+ }
 
     .HomeHeroDiv {
         height: 65vh;
@@ -136,7 +137,7 @@
 
     .HomeHeroDiv-innerContainer {
         margin-top: 4em;
-        width: 90%;
+        width: 100%;
     }
 
     .visbyfont {
@@ -167,4 +168,22 @@
         width: 1.5em;
                 height: 1.5em;
     }
+
+    .HomeHeroDiv-innerContainer h2 {
+    word-spacing: 0.2em;
+    margin: 1em 0;
+    font-size: 2em;
+    line-height: 3.5rem;
+    width: 82%;
+    text-align: start;
+}
+.HomeHeroDiv-innerContainer {
+    text-align: start;
+    margin-top: 1rem;
+
+}
+.HomeHeroDiv{
+    padding: 2em;
+}
+
 }
