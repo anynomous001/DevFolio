@@ -43,11 +43,12 @@
 
 .HomeHeroDiv-innerContainer h2 {
     color: aliceblue;
-    font-family: 'valorant', sans-serif;
+    font-family: 'visby', sans-serif;
     word-spacing: 0.2em;
     font-size: 2.5rem;
     margin: 1em 0;
     text-align: center;
+    font-weight: 200;
 }
 
 .oneliner {
@@ -141,13 +142,11 @@ justify-content: flex-start;
     }
 
     .visbyfont {
-        font-size: 1.3rem;
+        font-size: 2rem;
+        font-weight: 400;
     }
 
-    .HomeHeroDiv-innerContainer h2 {
-        font-size: 1.5rem;
-        margin: 0;
-    }
+
 
     .btn {
         color: rgb(65, 64, 64);
@@ -172,10 +171,12 @@ justify-content: flex-start;
     .HomeHeroDiv-innerContainer h2 {
     word-spacing: 0.2em;
     margin: 1em 0;
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-height: 3rem;
     width: 90%;
     text-align: start;
+    font-weight: 100;
+    
 }
 .HomeHeroDiv-innerContainer {
     text-align: start;
