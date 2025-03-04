@@ -1,8 +1,9 @@
+
+
 .HomeHeroDiv {
     height: 80vh;
     background-color: #1a1a1a;
     padding: var(--padding);
-    border: 1px solid skyblue;
    display: flex;
    justify-content: center;
 }
@@ -14,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 1px solid skyblue;
     text-align: center;
 }
 
@@ -73,7 +73,6 @@
     justify-content: center;
     text-align: center;
     row-gap: 1em;
-    border: 1px solid rgb(135, 235, 152);
 }
 
 .btn {

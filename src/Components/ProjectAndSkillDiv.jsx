@@ -3,7 +3,7 @@ import './ProjectAndSkillDivStyle.css'
 
 import Endorsementproject from '../assets/Endorsementproject.jpg'
 import Quizproject from '../assets/Quizproject.jpg'
-import project5 from '../assets/Todoproject.jpg'
+import project5 from '../assets/image.png'
 
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiRecoil, SiExpress } from 'react-icons/si'
@@ -53,9 +53,13 @@ const ProjectAndSkillDiv = () => {
                         <img className='home_project_pic' src={readium} alt='Project-photo' />
                         <h4>Readium
                         </h4>
-                        <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
+                        <p>Readium is a full-stack Medium-like blogging platform built with Typescript, Node.js, and Prisma,
+                            using PostgreSQL as the database.
+                            It features user authentication, CRUD operations for posts. Optimized API routes
+                            ensure efficient data fetching, while Recoil manages state.
+                        </p>
                         <div>
-                            <a href='https://medium-full-stack-sand.vercel.app/' className='view' >View</a>
+                            <a href='https://readium.techtovium.com/' className='view' >View</a>
                             <a href='https://github.com/anynomous001/Medium_Full-Stack' className='source'>source</a>
                         </div>
                     </div >
@@ -63,20 +67,23 @@ const ProjectAndSkillDiv = () => {
                         <img className='home_project_pic' src={project5} alt='Project-photo' />
                         <h4>Play TM
                         </h4>
-                        <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
+                        <p>PlayTM is a full-stack Paytm-like wallet app built with NextJS, Node.js, and Prisma, using PostgreSQL as the database.
+                            It features user authentication(next-auth), wallet transactions, and balance syncing. Optimized API routes ensure efficient data fetching,
+                            while Recoil manages state.</p>
                         <div>
-                            <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
-                            <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
+                            <a href='https://playtm.vercel.app/dashboard/auth/signup' className='view' >View</a>
+                            <a href='https://github.com/anynomous001/Turborepo_Paytm' className='source'>source</a>
                         </div>
                     </div >
                     <div key={Math.random()} className='projectcard'>
                         <img className='home_project_pic' src={Quizproject} alt='Project-photo' />
                         <h4>Quizzicle
                         </h4>
-                        <p>Notice the use of %PUBLIC_URL% in the tags above. It will be replaced with the URL of the `public` folder during the build. Only files inside the `public` folder can be referenced from the HTML.</p>
+                        <p>QuizApp is a React and Vite-based quiz platform that fetches questions from the Open Trivia Database API.
+                            It allows users to select a domain, choose difficulty levels, and test their knowledge. Optimized for performance, it features real-time scoring and interactive feedback.</p>
                         <div>
-                            <a href='https://github.com/anynomous001/Endorsement-App' className='view' >View</a>
-                            <a href='https://anynomous001.github.io/Endorsement-App/' className='source'>source</a>
+                            <a href='https://spectacular-kataifi-8d603e.netlify.app/' className='view' >View</a>
+                            <a href='https://github.com/anynomous001/Quiz?tab=readme-ov-file' className='source'>source</a>
                         </div>
                     </div >
                     {seeMore && Data}

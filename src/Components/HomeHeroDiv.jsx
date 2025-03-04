@@ -13,7 +13,7 @@ import {
 
 const HomeHeroDiv = () => {
     return (
-        <div className='HomeHeroDiv'>
+        <div className='HomeHeroDiv '>
             <div className='HomeHeroDiv-innerContainer'>
                 <span className='small-tag'>Hi, I'm Pritam <FaCode className='facode' /></span>
                 <h2>A <span className='visbyfont'>{`<FullStack Developer />`}</span> with a passion of  coding,

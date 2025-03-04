@@ -5,7 +5,6 @@
     justify-items: center;
     align-items: center;
     padding: var(--padding) 1em;
-    border: 1px solid salmon;
 }
 
 
@@ -18,7 +17,6 @@
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
-    border: 1px solid salmon;
     display: flex;
     margin: 1rem;
     gap: 2rem;
@@ -42,7 +40,6 @@ p {
     flex-direction: column;
     gap: 1.5rem;
     padding: 1em;
-    border: 1px solid salmon;
 
     color: #dec196;
     background-image: -webkit-linear-gradient(45deg, #dec196 41%, #987654 50%);
