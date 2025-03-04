@@ -1,9 +1,8 @@
 import React from 'react'
 import './ProjectAndSkillDivStyle.css'
 
-import Endorsementproject from '../assets/Endorsementproject.jpg'
 import Quizproject from '../assets/Quizproject.jpg'
-import project5 from '../assets/image.png'
+import project5 from '../assets/image1.png'
 
 import { BiLogoPostgresql } from 'react-icons/bi'
 import { SiNextdotjs, SiTypescript, SiTailwindcss, SiMongodb, SiRecoil, SiExpress } from 'react-icons/si'
@@ -14,7 +13,7 @@ import { TbBrandRedux } from "react-icons/tb";
 import { DiNginx } from "react-icons/di";
 
 import { ProjectData } from './ProjectData'
-import project1 from '../assets/intro.jpg'
+import project1 from '../assets/image.png'
 import project2 from '../assets/project_one.jpeg'
 import project3 from '../assets/project_three.jpeg'
 import project4 from '../assets/Demomarketing.jpg'
